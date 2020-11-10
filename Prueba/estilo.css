@@ -1,0 +1,20 @@
+#todo {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    background-color: #CCCC66;
+}
+
+#cabeza {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#verde {
+    display: flex;
+}
+
+#azul {
+    display: flex;
+}
