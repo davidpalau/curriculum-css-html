@@ -1,46 +1,50 @@
+
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    padding: 0%;
 }
 
+body{
+    background-color: darkgrey;
+}
 
-#todo {
+body>div#todo {
     width: 80%;
     margin: auto;
     background-color: #CCCC66;
 
 }
 
-#aliniado {
+div#aliniado{
     margin: auto;
     display: flex;
-
     flex-direction: row;
 }
 
-#cabeza {
+div#cabeza{
     margin: auto;
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
+    width: 60em;
 }
 
 
-#alinIzquierda {
+div#alinIzquierda {
     display: flex;
     justify-content: space-between;
     margin-left: 3em;
 }
 
 
-#alinCenter {
+div#alinCenter {
     display: flex;
     justify-content: space-between;
     margin-right: 3em;
 
 }
 
-#alinDerecha {
+div#alinDerecha {
     display: flex;
     padding: 1em;
 }
@@ -48,31 +52,45 @@
 
 aside {
     float: right;
-    border: solid 1px black;
     background-color: aqua;
     width: 250px;
-    height: 685px;
-    margin: 10px;
+    height: 600px;
     padding: 25px;
 }
 
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: beige;
+    background-color: #CCCC66;
+}
+a:hover{
+    color: #CCCC66;
+}
 
 ul {
 
     display: inline-flex;
-
+    background-color: brown;
+    border: solid 1px black;
+    
 
 }
 
 li {
     background-color: brown;
     list-style: none;
-    padding: 5px 25px;
+    padding: 1em 25px;
+    border: solid 1px black;
 }
 
 nav {
     border: solid 1px black;
     background-color: blue;
+    padding: 0;
+    margin: 0;
 }
 
 section {
@@ -80,7 +98,7 @@ section {
     padding: 15px;
 }
 
-article {
+section > article {
     background-color: darkgrey;
 }
 
