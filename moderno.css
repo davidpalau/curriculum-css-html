@@ -8,35 +8,43 @@
     width: 80%;
     margin: auto;
     background-color: #CCCC66;
-}
 
-header {
-    display: flex;
-    background-color: cadetblue;
-    border: solid 1px black;
 }
 
 #aliniado {
+    margin: auto;
     display: flex;
-    align-items: stretch;
+
+    flex-direction: row;
 }
 
-#alinDerecha,
-h1,
-h2,
-p,
-img {
+#cabeza {
+    margin: auto;
     display: flex;
-    justify-content: flex-start;
-    background-color: green;
-    border: solid 1px black;
+    justify-content: space-around;
+    flex-direction: row-reverse;
 }
+
 
 #alinIzquierda {
-    padding-left: 10%;
     display: flex;
-    background-color: blue;
+    justify-content: space-between;
+    margin-left: 3em;
 }
+
+
+#alinCenter {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3em;
+
+}
+
+#alinDerecha {
+    display: flex;
+    padding: 1em;
+}
+
 
 aside {
     float: right;
