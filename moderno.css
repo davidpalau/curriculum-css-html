@@ -1,0 +1,145 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0%;
+    color: #212121;
+}
+
+body {
+    background-color: #212121;
+}
+
+body>div#todo {
+    width: 80%;
+    margin: auto;
+
+}
+
+div#alinDerecha>img {
+    width: 80%;
+    margin: auto;
+
+}
+
+body>div#todo header {
+    margin: 0.5% auto;
+    background-color: #32E0C4;
+    border-radius: 5.5%;
+    border: #0D7377 solid 5px;
+
+}
+
+div#aliniado {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+div#cabeza {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    width: 60em;
+    background-color: #32E0C4;
+}
+
+
+div#alinIzquierda {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3em;
+}
+
+
+div#alinCenter {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3em;
+
+}
+
+div#alinDerecha {
+    display: flex;
+    padding: 1em;
+}
+
+
+aside {
+    float: right;
+    background-color: #32e0c4;
+    border-radius: 2.5%;
+    border: solid 5% #0D7377;
+    margin: 2rem;
+    width: 250px;
+    height: 25rem;
+    padding: 25px;
+}
+
+p,
+h1,
+h2,
+em {
+    color: #212121;
+}
+
+a:link {
+    color: #0055ff;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #212121;
+    background-color: #0d7377;
+}
+
+a:hover {
+    color: #212121;
+    ;
+}
+
+ul {
+
+    display: inline-flex;
+    background-color: #32e0c4;
+    border: solid 1px #0d7377;
+
+
+}
+
+li {
+    background-color: orangered;
+    list-style: none;
+    padding: 1em 25px;
+    border: solid 1px #212121;
+    ;
+}
+
+nav {
+    border: solid 1px #212121;
+    background-color: #0055ff;
+    ;
+    border-radius: 5.5%;
+    border: solid 1px #0055ff;
+
+    padding: 0;
+    margin: 0 0 0.5%;
+}
+
+section {
+
+
+    background-color: #0d7377;
+    padding: 15px;
+}
+
+section>article {
+    border: outset 5px #212121;
+    padding: 1%;
+    margin: 1% 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #0d7377;
+}
